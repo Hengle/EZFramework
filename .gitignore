@@ -1,37 +1,41 @@
-/Assets/EZAssets
-/Assets/EZAssets.meta
-/Assets/EZData
-/Assets/EZData.meta
-
-/Assets/EZFramework/3rdParty/XLua/Gen
-/Assets/EZFramework/3rdParty/XLua/Gen.meta
-
-/Assets/_Temp
-/Assets/_Temp.meta
-/Assets/Resources
-/Assets/Resources.meta
-/Assets/Script_CSharp
-/Assets/Script_CSharp.meta
-/Assets/Script_Lua_txt
-/Assets/Script_Lua_txt.meta
-/Assets/StreamingAssets
-/Assets/StreamingAssets.meta
-
-.svn
-
-.vs
+# VS/VSCode files
+.vs/
 *.sln
 *.csproj
-*.luaproj
-*.luaproj.user
+*.user
 *.userprefs
 *.config
+*.code-workspace
 
-/Library
-/obj
-/ProjectSettings
-/Temp
+# Unity3D
+[Ll]ibrary/
+[Oo]bj/
+[Tt]emp/
+[Ll]ogs/
+[Bb]uild/
+[Bb]uilds/
+ProjectSettings/ProjectVersion.txt
+UnityPackageManager/
 
+# EZUnity
+EZPersistent/
+EZScreenshots/
+
+# XLua
+LuaDebuggee.dll
+Assets/.lpproj/
+Assets/ThirdParty/
+Assets/ThirdParty.meta
+Assets/XLua/Gen/
+Assets/XLua/Gen.meta
+
+# Others
+Assets/EZhex1991/EZAnimation
+Assets/EZhex1991/EZAnimation.meta
+Assets/EZhex1991/EZPhysicsBone
+Assets/EZhex1991/EZPhysicsBone.meta
+Assets/AssetStoreTools
+Assets/AssetStoreTools.meta
 
 # Windows image file caches
 Thumbs.db
